@@ -1,0 +1,47 @@
+body {
+    /* Enlève les marges par défaut d'une page html */
+    padding: 0;
+    margin: 0;
+    background-color : #ffe8d6;
+}
+
+/* Style du contenaire menu */
+.menu-container {
+    margin: 10% auto;    /* Pour centrer le contenaire au centre de la page web */
+    border: 2px solid white;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    text-align: center;
+}
+
+/* Style du text */
+.text {
+    font-family: Arial;
+    color: #a5a58d
+}
+
+/* Style du titre */
+.text-title {
+    font-family: Arial;
+    color: #6b705c;
+}
+
+/* Margin top large */
+.mt-lg {
+    margin-top: 25px;
+}
+
+/* Style des boutons principaux */
+.button-primary {
+    background-color: #cb997e;
+    color: white;
+    padding : 10px;
+    border: none;
+}
+
+.button-primary:hover {
+    background-color: #b7b7a4;
+    cursor: pointer;
+}
