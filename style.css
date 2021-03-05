@@ -16,6 +16,40 @@ body {
     text-align: center;
 }
 
+/* Style du contenaire de jeu */
+.game-container {
+    margin: 10% auto;    /* Pour centrer le contenaire au centre de la page web */
+    border: 2px solid white;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    text-align: center;
+}
+
+/* Style du contenaire de la carte */
+.card-container {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 0, 255, .2);
+}
+
+/* Disposition du contenu d'un contenaire en space-around*/
+.flex-around {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+/* Disposition du contenu d'un contenaire en center */
+.flex-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
 /* Style du text */
 .text {
     font-family: Arial;
@@ -31,6 +65,16 @@ body {
 /* Margin top large */
 .mt-lg {
     margin-top: 25px;
+}
+
+/* Margin top extra large */
+.mt-xl {
+    margin-top: 50px;
+}
+
+/* Margin top small */
+.mt-sm {
+    margin-top: 15px;
 }
 
 /* Style des boutons principaux */
